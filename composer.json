@@ -1,0 +1,26 @@
+{
+    "name": "phpxface/ui",
+    "type": "library",
+    "description": "phpXFace microservice framework",
+    "license": "proprietary",
+  "authors": [
+    {
+      "name": "Christian Pergande"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "ssh://git@github.com/phpxface/core.git"
+    }
+  ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpxface/core": "dev-master",
+        "doctrine/annotations": "1.*",
+        "doctrine/cache": "1.*"
+    },
+    "autoload": {
+        "psr-0": { "phpXFace": "src/" }
+    }
+}
